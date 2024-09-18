@@ -14,7 +14,7 @@
     - [Packets Barrage](#packets-barrage)
     - [FTP Login](#ftp-login)
     - [Surprise](#surprise)
-    - [Corporate Branch](#corporate-branch)
+    - [Corporate Breach](#corporate-breach)
     - [Malicious Code](#malicious-code)
     - [Pegawai Negeri Sebelah](#pegawai-negeri-sebelah)
     - [EZ](#ez)
@@ -45,7 +45,7 @@ tcp.stream.eq 4
 
 Peraturan Soal Shift > cGVud29yZA== > penword
 
-**`FLAG: JarkomIT{8uK4n_S4n1ty_b1a5A_vtvGNBv8TummwrvZPtLD4XFJTSu5BpwjTk21DruKc4us7bO67NBvgIKK}`**
+**`JarkomIT{8uK4n_S4n1ty_b1a5A_vtvGNBv8TummwrvZPtLD4XFJTSu5BpwjTk21DruKc4us7bO67NBvgIKK}`**
 
 ### Illegal Breakthrough
 
@@ -77,7 +77,7 @@ Follow > HTTP Stream > eq 1917
 
 ![alt text](assets/break3.png)
 
-**`FLAG: JarkomIT{d34th_fr0m_th3_sky_yvEQH6jxmPAqZRbqNI0ooaGhEH1sScGTtiMPWm6vWuesQ6C74PZwWW1}`**
+**`JarkomIT{d34th_fr0m_th3_sky_yvEQH6jxmPAqZRbqNI0ooaGhEH1sScGTtiMPWm6vWuesQ6C74PZwWW1}`**
 
 ### Packets Barrage
 
@@ -104,49 +104,77 @@ tcp.stream eq 1918 > Albatros.txt
 
 Der Rote Kampfflieger
 
-**`FLAG: JarkomIT{th3_fly1ng_c1rcus_0f_w4r_2VpANzt61cHPI1bVJFbehI7a65StGbt2VsQwE2gMiKLkrxQEvtfL2ACE}`**
+**`JarkomIT{th3_fly1ng_c1rcus_0f_w4r_2VpANzt61cHPI1bVJFbehI7a65StGbt2VsQwE2gMiKLkrxQEvtfL2ACE}`**
 
 ### FTP Login
 
 Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan brute force login dan ia berhasil masuk. Lakukan pemeriksaan untuk melihat apa yang dilakukan oleh orang tersebut! (file: ftplogin.pcapng)
 
-**Q1** - 
+**Q1** - Apa username yang berhasil digunakan untuk FTP login?
 
-**Q2** - 
+![alt text](assets/ftp1.png)
 
-**Q3** - 
+Follow > TCP Stream > eq 4
+
+sn34ky
+
+**Q2** - Apa password yang berhasil digunakan untuk FTP login?
+
+sup3rsn1ff3r
+
+**`JarkomIT{n0t_s0_s3cur3_ftp_QiwZwrCuLIqeCgm2PYNkxq2yYL0pILQ2ea8vGo7ZMeytj8AS19zBG1N}`**
 
 ### Surprise
 
 Setelah mengetahui apa yang diketahui pada challenge sebelumnya, sekarang lakukan analisis untuk mengetahui apa yang sebenarnya terjadi.
 File sama seperti FTP Login.
 
-**Q1** - 
+**Q1** - Apa service yang digunakan pada FTP server?
 
-**Q2** - 
+vsFTPd 3.0.3
 
-**Q3** - 
+**Q2** - Apa nama file yang dikirim oleh attacker?
 
-### Corporate Branch
+g0tcha.cpp
+
+**Q3** - Apa pesan rahasia yang ditinggalkan oleh attacker?
+
+tcp.stream eq 5
+
+![alt text](assets/ftp2.png)
+
+**`JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_Q4Gsd9Dka8kHhR1BIqr0fe0eFG0oC23HMxO8A39m23IOLugHZhRsTCHU}`**
+
+### Corporate Breach
 
 Sebuah perusahaan IT support mendapatkan serangan oleh orang tidak dikenal. Bantulah perusahaan tersebut untuk melacak jejak yang ditinggalkan oleh attacker. (file: breach.pcapng)
 
-**Q1** - 
+**Q1** - Siapa nama attacker?
 
-**Q2** - 
+![alt text](assets/breach1.png)
 
-**Q3** - 
+**Q2** - Apa email yang digunakan untuk login?
+
+**Q3** - Apa password yang digunakan untuk login?
+
+![alt text](assets/breach2.png)
+
+**`JarkomIT{supp0rt_k0k_l3m4h_bg_AKiL8iVClB4xesDqZ9yVlv7aSG6xcrHXL3PpyU60h6hcz7GEbFOOG6}`**
 
 ### Malicious Code
 
 Ternyata sang attacker dengan sengaja meninggalkan sesuatu untuk dibaca oleh kamu. Lihat pesan apa yang ditinggalkan attacker.
 File sama seperti Corporate Breach.
 
-**Q1** - 
+**Q1** - Berapa total attempt attacker melakukan dir listing?
 
-**Q2** - 
+54 - 2 = 52
 
-**Q3** - 
+**Q2** - Apa endpoint yang berhasil attacker dapatkan untuk login page?
+
+/index.php - Q3
+
+**Q3** - Pada attempt ke berapa attacker menemukan email dan password yang benar?
 
 ### Pegawai Negeri Sebelah
 
