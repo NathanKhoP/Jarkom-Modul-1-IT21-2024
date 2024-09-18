@@ -172,9 +172,19 @@ File sama seperti Corporate Breach.
 
 **Q2** - Apa endpoint yang berhasil attacker dapatkan untuk login page?
 
-/index.php - Q3
+/index.php - Q2/3 Corporate Breach
 
 **Q3** - Pada attempt ke berapa attacker menemukan email dan password yang benar?
+
+207 - 54 = 153
+
+**Q4** - Apa jawaban dari pertanyaan sang attacker?
+
+![alt text](assets/breach3.png)
+
+dengan bruteforce :skull:, jawabannya merah 👍
+
+**`Benar! Ini flag-mu: JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_tDbBOhowylLVR8zwIXddLc2BvC0JJPFkJiPW13SMhNQGtb9s6lFUL0R}`**
 
 ### Pegawai Negeri Sebelah
 
