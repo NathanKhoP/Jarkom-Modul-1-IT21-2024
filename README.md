@@ -183,13 +183,15 @@ File sama seperti Corporate Breach.
 
 dengan bruteforce :skull:, jawabannya merah 👍
 
-**`Benar! Ini flag-mu: JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_tDbBOhowylLVR8zwIXddLc2BvC0JJPFkJiPW13SMhNQGtb9s6lFUL0R}`**
+**`JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_tDbBOhowylLVR8zwIXddLc2BvC0JJPFkJiPW13SMhNQGtb9s6lFUL0R}`**
 
 ### Pegawai Negeri Sebelah
 
 Kamu seorang data analisis diminta untuk memastikan ulang data-data dari beberapa pegawai (file: rahasia.pcap)
 
 **Q1** - Siapa yang memiliki password nNnM%coQuF?
+
+`Follow > TCP Stream > eq 1`
 
 Vero Tampubolon
 
@@ -205,7 +207,7 @@ Apa password paling akhir dari list?
 
 RyxaJPv^yF
 
-**`Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_giY74xwNm6AkeQsd3EuzskQxJL3u9Wc1Y6xDRTlEPwgSKVxJj0DNM4h}`**
+**`JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_giY74xwNm6AkeQsd3EuzskQxJL3u9Wc1Y6xDRTlEPwgSKVxJj0DNM4h}`**
 
 ### EZ
 
@@ -213,13 +215,15 @@ Aku sedang mencoba bikin chat service tapi kayanya pesannya bisa di sniffing deh
 
 **Q1** - Temukan jawaban dari log tersebut?
 
+`Follow > TCP Stream > eq 0`
+
 jawabannya jawaban
 
 **Q2** - Port berapa yang digunakan service tersebut
-
+![alt text](assets/ez.png)
 1234
 
-**`Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_gHq95NMVuHOmejn3i4agOZ8033z1RLSbai2yR3bz1UNOI5n4oyjwEZ}`**
+**`JarkomIT{BiAr_aman_Pake_sSh_gHq95NMVuHOmejn3i4agOZ8033z1RLSbai2yR3bz1UNOI5n4oyjwEZ}`**
 
 ### Rizzset
 
@@ -271,11 +275,23 @@ admin1234
 
 omg, SIEM mendeteksi adanya serangan hacker yang berhasil mengupload webshell. sebagai analyst yang jago, kamu diharuskan membuat laporan insiden tersebut (file: innerRCE.pcapng)
 
-**Q1** - 
+**Q1** - Kapan hacker berhasil mengupload webshell?
+![alt text](assets/image.png)
+**Q2** - Endpoint url dan server mana yang rentan sehingga dapat dihack oleh hacker?
+![alt text](assets/image1.png)
+**Q3** - Nama webshell yang diupload oleh hacker?
 
-**Q2** - 
+idzoyyshell.php
 
-**Q3** - 
+**Q4** - Command pertama yang berhasil dieksekusi oleh hacker?
+
+![alt text](<assets/image copy.png>)
+
+**Q5** - Berdasarkan log, hacker tersebut mencoba menuliskan pesan, apa pesan yang hacker coba tuliskan?
+
+![alt text](<assets/image copy 2.png>)
+
+**`JarkomIT{P4L1nG_g4mPaNg_An4L1sA_W3b_aTk_rn0sH5eR0FRGxn1A7SzDMji3aW4iijlizbL51BC4mVl4dfsCOs0cvRCE}`**
 
 ### Baby Hengker
 
