@@ -309,7 +309,7 @@ Setelah sang mahasiswa tau passwordnya, dia akhirnya bisa masuk ke komputer dan 
 
 **Q1** - Apakah device yang digunakan oleh seorang mahasiswa tersebut?
 
-
+![alt text](assets/adult1.png)
 
 **Q2** - Apakah device yang digunakan oleh seorang mahasiswa tersebut? (seharusnya kesalahan sistem)
  
@@ -318,3 +318,7 @@ Format: STRING .ex AKU INGIN JADI SEORANG BATMAN
 Berdasarkan .pcap ini, ini juga chall USB device melalui HID Data. Setelah proses pencarian, ditemukan tool untuk melakukan visualisasi terdapat file .pcap yang berisi HID Data mouse [disini](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer).
 
 ![alt text](assets/adult.png)
+
+HALO MAS KEVIN SALKEN
+
+**`JarkomIT{d0n7_wr173_r4nd0m1y_o2NdqrjFJ3cgfmfbLoMZCdgSFm45bUwqjbJwipMTt0KurYseN570EK3v1n}`**
