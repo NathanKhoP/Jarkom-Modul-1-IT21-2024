@@ -20,7 +20,6 @@
     - [EZ](#ez)
     - [Rizzset](#rizzset)
     - [Gajah Terbang (Server Recon)](#gajah-terbang-server-recon)
-    - [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
     - [innerRCE](#innerrce)
     - [Baby Hengker](#baby-hengker)
     - [Adult Hengker](#adult-hengker)
@@ -190,21 +189,37 @@ dengan bruteforce :skull:, jawabannya merah 👍
 
 Kamu seorang data analisis diminta untuk memastikan ulang data-data dari beberapa pegawai (file: rahasia.pcap)
 
-**Q1** - 
+**Q1** - Siapa yang memiliki password nNnM%coQuF?
 
-**Q2** - 
+Vero Tampubolon
 
-**Q3** - 
+**Q2** - Apa jabatan dari Taufan Kuswandari?
+
+Analis Kebijakan
+
+**Q3** - Siapa yang paling awal di list?
+
+Apa password paling akhir dari list?
+
+**Q4** - Apa password paling akhir dari list?
+
+RyxaJPv^yF
+
+**`Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_giY74xwNm6AkeQsd3EuzskQxJL3u9Wc1Y6xDRTlEPwgSKVxJj0DNM4h}`**
 
 ### EZ
 
 Aku sedang mencoba bikin chat service tapi kayanya pesannya bisa di sniffing deh? coba temukan pesannya. (file: ez.pcapng)
 
-**Q1** - 
+**Q1** - Temukan jawaban dari log tersebut?
 
-**Q2** - 
+jawabannya jawaban
 
-**Q3** - 
+**Q2** - Port berapa yang digunakan service tersebut
+
+1234
+
+**`Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_gHq95NMVuHOmejn3i4agOZ8033z1RLSbai2yR3bz1UNOI5n4oyjwEZ}`**
 
 ### Rizzset
 
@@ -220,22 +235,39 @@ Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk
 
 Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang hengker berhasil masuk ke sistem database perusahaan tersebut, dan melakukan manipulasi sistem database mereka. Anda sebagai profesional Cyber Security Analyst ditugaskan untuk melakukan investigasi melalui log network yang berhasil tercapture! (file: gajahterbang.pcapng)
 
-**Q1** - 
+**Q1** - Apa DBMS yang digunakan pada server tersebut?
 
-**Q2** - 
+PostgreSQL
 
-**Q3** - 
+**Q2** - Di port berapa DBMS server tersebut berjalan?
 
-### Gajah Terbang (Attacker Recon)
+6969
 
-Setelah berhasil menginvestigasi server yang berjalan, kamu diharuskan untuk mencari identitas dan mencari jejak apa saja yang telah dilakukan oleh penyerang! Kamu jago, pasti bisa let’s go temukan tersangkanya!!!
-File sama seperti Gajah Terbang.
+**Q3** - OS apa yang digunakan untuk server tersebut?
 
-**Q1** - 
+Debian
 
-**Q2** - 
+**Q4** - Apa credentials username DBMS valid yang digunakan?
 
-**Q3** - 
+s1gm4
+
+**Q5** - Apa nama database yang digunakan?
+
+sigmaskibidigyatrizzzz
+
+**Q6** - Ada berapa banyak users dalam database tersebut?
+
+4
+
+**Q7** - Apa email yang digunakan oleh admin?
+
+jojohermawan@gmail.com
+
+**Q8** - Apa password yang digunakan oleh admin?
+
+admin1234
+
+**`JarkomIT{Gy4tT_M5g_4U_aR1RFyN6tIHcNcU22a6cu1gT85k1Zs3PIxBDC2qfpzNu91BQ3e9DLBiD1}`**
 
 ### innerRCE
 
@@ -251,18 +283,38 @@ omg, SIEM mendeteksi adanya serangan hacker yang berhasil mengupload webshell. s
 
 Pada suatu hari, ada seorang mahasiswa yang menyusup kedalam lab. mahasiswa tersebut menyalakan salah satu komputer yang ada dan mulai mengetikkan sesuatu?!?!?! bantulah mas aji menganalisa apa yang dilakukan oleh mahasiswa tersebut. (file: innerchild.pcap)
 
-**Q1** - 
+**Q1** - Kapan hacker tersebut mengakses komputer yang ada di lab?
 
-**Q2** - 
+![alt text](assets/baby2.png)
 
-**Q3** - 
+2024-09-16 13:43
+
+**Q2** - Apa yang dituliskan oleh hacker tersebut?
+
+Berdasarkan .pcap ini, ini adalah chall device USB yang bisa dicari perlakuannya menurut HID Data. Setelah beberapa lama, script untuk parse USB ke keystroke ditemukan [disini](https://github.com/5h4rrK/CTF-Usb_Keyboard_Parser/tree/main). Kemudian kita hanya perlu untuk memasukkan .pcap kita ke script, dan hasil keystroke akan keluar.
+
+![alt text](assets/baby1.png)
+
+Kita bisa menghapus huruf yang double (ex. ppassword) dan kalimat akhir menjadi:
+
+`ini password wifinya apa ya?`
+
+(Note: Dikarenakan kesalahan sistem, jawaban asli adalah ini passwordnya apa ya? yang dikonfirmasi melalui asisten)
+
+**`JarkomIT{4ku_p9n_j4d1_h3n9k3r_CeKrWLt4hzM8aVjSVsajYxumRAm14wHzwuSw44Yqe9oXg18QcBJDWHCK}`**
 
 ### Adult Hengker
 
 Setelah sang mahasiswa tau passwordnya, dia akhirnya bisa masuk ke komputer dan menuliskan sesuatu di ms paint, apakah kamu tau dia menulis apa? (file: innerchild2.pcap)
 
-**Q1** - 
+**Q1** - Apakah device yang digunakan oleh seorang mahasiswa tersebut?
 
-**Q2** - 
 
-**Q3** - 
+
+**Q2** - Apakah device yang digunakan oleh seorang mahasiswa tersebut? (seharusnya kesalahan sistem)
+ 
+Format: STRING .ex AKU INGIN JADI SEORANG BATMAN
+
+Berdasarkan .pcap ini, ini juga chall USB device melalui HID Data. Setelah proses pencarian, ditemukan tool untuk melakukan visualisasi terdapat file .pcap yang berisi HID Data mouse [disini](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer).
+
+![alt text](assets/adult.png)
