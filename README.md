@@ -224,12 +224,10 @@ jawabannya jawaban
 ### Rizzset
 
 Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk menjawab soal ini (file: riset.pcapng)
+![alt text](assets/rizz1.png)
+![alt text](assets/rizzset.jpg)
 
-**Q1** - 
-
-**Q2** - 
-
-**Q3** - 
+(Note: JARM Fingerprint didapat dari program JARM)
 
 ### Gajah Terbang (Server Recon)
 
