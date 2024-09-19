@@ -20,6 +20,8 @@
     - [EZ](#ez)
     - [Rizzset](#rizzset)
     - [Gajah Terbang (Server Recon)](#gajah-terbang-server-recon)
+    - [Gajah Terbang (Attacker Recon)](#gajah-terbang-attacker-recon)
+    - [Stegography](#stegography)
     - [innerRCE](#innerrce)
     - [Baby Hengker](#baby-hengker)
     - [Adult Hengker](#adult-hengker)
@@ -233,6 +235,8 @@ Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk
 
 (Note: JARM Fingerprint didapat dari program JARM)
 
+<!-- DARI SINI -->
+
 ### Gajah Terbang (Server Recon)
 
 Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang hengker berhasil masuk ke sistem database perusahaan tersebut, dan melakukan manipulasi sistem database mereka. Anda sebagai profesional Cyber Security Analyst ditugaskan untuk melakukan investigasi melalui log network yang berhasil tercapture! (file: gajahterbang.pcapng)
@@ -270,6 +274,12 @@ jojohermawan@gmail.com
 admin1234
 
 **`JarkomIT{Gy4tT_M5g_4U_aR1RFyN6tIHcNcU22a6cu1gT85k1Zs3PIxBDC2qfpzNu91BQ3e9DLBiD1}`**
+
+### Gajah Terbang (Attacker Recon)
+
+### Stegography
+
+<!-- SAMPE SINI -->
 
 ### innerRCE
 
