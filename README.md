@@ -294,7 +294,7 @@ admin1234
 
 ### Gajah Terbang (Attacker Recon)
 
-![alt text](assets/gajah-terbang-attacker.ppg)
+![alt text](assets/gajah-terbang-attacker.png)
 Setelah berhasil menginvestigasi server yang berjalan, kamu diharuskan untuk mencari identitas dan mencari jejak apa saja yang telah dilakukan oleh penyerang! Kamu jago, pasti bisa let’s go temukan tersangkanya!!!
 File sama seperti Gajah Terbang. (gajahterbang.pcapng)
 
@@ -333,7 +333,7 @@ Format: number
 
 ### Stegography
 
-![alt text](assets/stego.ppg)
+![alt text](assets/stego.png)
 Seekor stegosaurus berusaha menyimpan pesan di dalam beberapa gambar apakah kamu bisa memperoleh dan menyusunnya? (14.pcapng)
 
 **Q1** - Ada berapa banyak gambar yang dikirim?
