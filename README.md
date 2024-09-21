@@ -234,18 +234,14 @@ Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk
 ![alt text](assets/rizzset.jpg)
 
 **Q1** - Apa nama domain dari dns query pada log?
-Format: www.domain.com
 
 www.its.ac.id
 
 **Q2** - berapa IP dari domain tersebut?
-Format: xxx.xxx.xxx.xxx
 
 103.94.189.5
 
 **Q3** - Tuliskan JARM Fingerprint yang dihasilkan dari domain tersebut
-Format: string
-ex. abcdef0123456789abcdef0123456789abcdef0123456789abcdef01234567
 
 2ad2ad16d2ad2ad22c2ad2ad2ad2ad74aaecca9f9c4a3303863dfee62b241e
 
@@ -259,6 +255,8 @@ ex. abcdef0123456789abcdef0123456789abcdef0123456789abcdef01234567
 Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang hengker berhasil masuk ke sistem database perusahaan tersebut, dan melakukan manipulasi sistem database mereka. Anda sebagai profesional Cyber Security Analyst ditugaskan untuk melakukan investigasi melalui log network yang berhasil tercapture! (file: gajahterbang.pcapng)
 
 **Q1** - Apa DBMS yang digunakan pada server tersebut?
+
+![alt text](assets/gajah1.png)
 
 PostgreSQL
 
@@ -299,33 +297,28 @@ Setelah berhasil menginvestigasi server yang berjalan, kamu diharuskan untuk men
 File sama seperti Gajah Terbang. (gajahterbang.pcapng)
 
 **Q1** - Akun apa yang dimiliki oleh penyerang dalam database tersebut, berikan emailnya!
-Format: user@gmail.com
 
 kuntoajiisrillll@gmail.com
 
 **Q2** - Apa password yang digunakan oleh penyerang?
-format: string
 
 kissme
 
 **Q3** - Pada tanggal berapa akun penyerang diban?
-Format:  YYYY-MM-DD
 ex. 1945-08-17
 
 2024-06-09
 
 **Q4** - Table apa saja yang dimodifikasi oleh penyerang?
-Format: string dan string
 
 users dan banned_users
 
 **Q5** - Barang apa saja yang telah dibeli oleh penyerang?
-Format: string dan string
 
+(Melalui bruteforce)
 rokok dan es krim
 
 **Q6** - Berapa total transaksi dari barang yang dibeli oleh penyerang?
-Format: number
 
 24500
 
@@ -337,18 +330,16 @@ Format: number
 Seekor stegosaurus berusaha menyimpan pesan di dalam beberapa gambar apakah kamu bisa memperoleh dan menyusunnya? (14.pcapng)
 
 **Q1** - Ada berapa banyak gambar yang dikirim?
-Format: number
 
 13
 
 **Q2** - Nama-nama file yang memiliki pesan? (Berurut abjad)
-Format: NAMEFILE, NAMEFILE ex. CALCULUS, FISIKA
-
+![alt text](assets/stego1.png)
 ATP, EH, KJK
 
 **Q3** - Apa pesannya jika digabung?
-Format: string ex. meteor jatuh
 
+(dibalik)
 pahlawan keamanan siber
 
 **`JarkomIT{S3LaM4t_p4rA_PahL4WaN_hYro38fcyVKdjZRAIB7hrBLXCP5stN1qRRpbigqSKnb5Q8JMTs81chC5}`**
