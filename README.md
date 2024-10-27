@@ -2,8 +2,8 @@
 
 |Nama  | NRP |
 |--|--|
-| Nathan Kho Pancras | 5027221002 |
-| Muhammad Andrean Rizq Prasetio | 5027221052 |
+| Nathan Kho Pancras | 5027231002 |
+| Muhammad Andrean Rizq Prasetio | 5027231052 |
 
 ## Challenges
 
